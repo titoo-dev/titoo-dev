@@ -25,7 +25,12 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['titoo-dev/dart_blowfish', 'titoo-dev/dart_id3_writer'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [
+          'titoo-dev/dart_blowfish',
+          'titoo-dev/dart_id3_writer',
+          'titoo-dev/tononkira',
+          'titoo-dev/tononkira_mobile',
+        ], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -33,17 +38,17 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Karaoke Milay',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'A powerful application that enables users to create stunning lyric videos from audio files with beautiful animations and customizable visual effects.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://monorepo-karaoke-milay.pages.dev/',
         },
         {
-          title: 'Project Name',
+          title: 'Tononkira',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Redesign of the famous Malagasy Tononkira application - A modern platform to discover, search and share lyrics of traditional and contemporary Malagasy songs.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://example.com',
@@ -84,6 +89,8 @@ const CONFIG = {
   },
   skills: [
     'React.js',
+    'Next.js',
+    'C#',
     'Flutter',
     'Android',
     'Java',
